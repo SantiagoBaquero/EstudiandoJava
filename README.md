@@ -1,6 +1,6 @@
 # EstudiandoJava
 
-<h2>Hello World 📂<h2>
+<h2>Hello World 📂</h2>
 Presenta la impresion de un Hello World
 
 <h2>Tipos de dato 📂</h2>
