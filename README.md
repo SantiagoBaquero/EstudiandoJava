@@ -11,7 +11,7 @@ En esta carpeta podemos encontrar:
 - EjemploPrimitivosEnteros
 -  EjemploPrimitivosFloat
 -   PrimitivosCaracteres
-- Sistemas Numericos:
+- **Sistemas Numericos:**
 
   En este archivo podemos encontrar la conversion de
   1. INT - BINARY  "Tambien se muestra como declarar binary  ('0B')"
