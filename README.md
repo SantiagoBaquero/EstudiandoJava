@@ -1,9 +1,9 @@
 # EstudiandoJava
 
-<h2>Hello World 📂</h2>
+## Hello World 📂
 Presenta la impresion de un Hello World
 
-<h2>Tipos de dato 📂</h2>
+## Tipos de dato 📂
 
 
 En esta carpeta podemos encontrar:
@@ -13,9 +13,9 @@ En esta carpeta podemos encontrar:
 -   PrimitivosCaracteres
 - Sistemas Numericos:
 
-  <h3>Tipos de dato 📑</h3>
+  ### Tipos de dato 📑
 
-  >[!NOTE]
+  >
   >En este archivo podemos encontrar la conversion de
   >1. INT - BINARY  "Tambien se muestra como declarar binary  ('0B')"  
   >2. INT - OCTAL  "Tambien se muestra como declarar octal  ('0')"
