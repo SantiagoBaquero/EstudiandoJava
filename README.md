@@ -15,7 +15,7 @@ En esta carpeta podemos encontrar:
 
   <h3>Tipos de dato 📑</h3>
 
-  
+  [!NOTE]
   En este archivo podemos encontrar la conversion de
   1. INT - BINARY  "Tambien se muestra como declarar binary  ('0B')"  
   2. INT - OCTAL  "Tambien se muestra como declarar octal  ('0')"
