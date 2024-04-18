@@ -10,4 +10,4 @@ En esta carpeta podemos encontrar:
 - TiposDeDato
 - EjemploPrimitivosEnteros
 -  EjemploPrimitivosFloat
--   EjemploCaracteres
+-   PrimitivosCaracteres
