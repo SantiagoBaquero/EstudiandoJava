@@ -11,3 +11,9 @@ En esta carpeta podemos encontrar:
 - EjemploPrimitivosEnteros
 -  EjemploPrimitivosFloat
 -   PrimitivosCaracteres
+- Sistemas Numericos:
+
+  En este archivo podemos encontrar la conversion de
+  1. INT - BINARY
+  2. INT - OCTAL
+  3. INT - HEXADECIMAL 
