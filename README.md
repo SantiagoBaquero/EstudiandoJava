@@ -14,6 +14,8 @@ En esta carpeta podemos encontrar:
 - Sistemas Numericos:
 
   En este archivo podemos encontrar la conversion de
-  1. INT - BINARY
+  1. INT - BINARY  
   2. INT - OCTAL
-  3. INT - HEXADECIMAL 
+  3. INT - HEXADECIMAL
+ ![image](https://github.com/SantiagoBaquero/EstudiandoJava/assets/102531445/63837d08-59b7-43ac-9f44-ff59dc211512)
+
