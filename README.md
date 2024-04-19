@@ -23,3 +23,11 @@ En esta carpeta podemos encontrar:
      
  ![image](https://github.com/SantiagoBaquero/EstudiandoJava/assets/102531445/63837d08-59b7-43ac-9f44-ff59dc211512)
 
+
+La impresion del mismo se realiza gracias a JOptionPane como se muestra a continuacion :
+
+
+![image](https://github.com/SantiagoBaquero/EstudiandoJava/assets/102531445/b34eae53-d2fa-47e7-8a93-0e146db347bf)     ![image](https://github.com/SantiagoBaquero/EstudiandoJava/assets/102531445/74701a39-5f3d-4ab4-9dfe-2459e039817a)
+
+
+
