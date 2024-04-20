@@ -7,7 +7,7 @@ public class SistemasNumericos {
         String numeroStr = JOptionPane.showInputDialog(null,"Ingrese un numero entero");
         int numeroDecimalDos =0;
         try { // Si no ingresa un numero entro
-            numeroDecimalDos = Integer.parseInt(numeroStr);
+            numeroDecimalDos = Integer.parseInt(numeroStr); // Convertirlo a numero entero
         }catch (NumberFormatException e){
             JOptionPane.showMessageDialog(null,"Error debe ingresar un numero entero");
             main(args);
@@ -39,6 +39,9 @@ public class SistemasNumericos {
         String resultadoHexa = "\nNumero Hexadecimal de " + numeroDecimalDos + " = " + Integer.toHexString(numeroDecimalDos);
         String mensaje = resultadoBinario + resultadoOctal + resultadoHexa;
        JOptionPane.showMessageDialog(null,mensaje);
+
+
+
 
 
 
