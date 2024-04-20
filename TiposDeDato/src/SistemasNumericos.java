@@ -19,7 +19,6 @@ public class SistemasNumericos {
         System.out.println("numeroDecimal = " + numeroDecimal);
         // Binario
         System.out.println("numero binario de " + numeroDecimal + " = " + Integer.toBinaryString(numeroDecimal));
-
         int numeroBinario =0b111110100 ; //0b para asignar un numero binario
         System.out.println("numeroBinario = " + numeroBinario);
 

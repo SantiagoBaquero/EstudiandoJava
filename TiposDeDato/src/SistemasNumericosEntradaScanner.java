@@ -27,9 +27,5 @@ public class SistemasNumericosEntradaScanner {
         System.out.println(mensaje);
 
 
-
-
-
-
     }
 }
