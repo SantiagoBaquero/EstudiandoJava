@@ -30,4 +30,9 @@ La impresion del mismo se realiza gracias a JOptionPane como se muestra a contin
 ![image](https://github.com/SantiagoBaquero/EstudiandoJava/assets/102531445/b34eae53-d2fa-47e7-8a93-0e146db347bf)     ![image](https://github.com/SantiagoBaquero/EstudiandoJava/assets/102531445/74701a39-5f3d-4ab4-9dfe-2459e039817a)
 
 
+- Sistema Numéricos Enteros
+
+
+  En este encontramos la misma funcionalidad que Sistemas numéricos solo aue esre es realizado por medio de consola.
+
 
