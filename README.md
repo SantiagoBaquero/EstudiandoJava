@@ -35,4 +35,4 @@ La impresion del mismo se realiza gracias a JOptionPane como se muestra a contin
 
   En este encontramos la misma funcionalidad que Sistemas numéricos solo aue esre es realizado por medio de consola.
 
-
+- Se añade sistema de conversión de datos
