@@ -1,5 +1,7 @@
 # EstudiandoJava
 
+Esto es en desarollo del curso de Udemy Java 127hrs
+
 ## Hello World 📂
 Presenta la impresion de un Hello World
 
