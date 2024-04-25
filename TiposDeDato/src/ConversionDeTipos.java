@@ -15,6 +15,28 @@ public class ConversionDeTipos {
         boolean logicoBoolean = Boolean.parseBoolean(logicoStr);
         System.out.println("logicoBoolean = " + logicoBoolean);
 
+        // Conversion de Int a String
+        int otronumeroInt = 100;
+        System.out.println("otronumeroInt = " + otronumeroInt);
+
+        String otroNumeroStr =  Integer.toString(otronumeroInt);
+        System.out.println("otroNumeroStr = " + otroNumeroStr);
+        // Otra Conversion de Int a String
+        otroNumeroStr = String.valueOf(otronumeroInt+10);
+        System.out.println("otroNumeroStr = " + otroNumeroStr);
+        // Con otronumeroStr como es cadena le concatena el 10
+        otroNumeroStr = String.valueOf(otroNumeroStr+10);
+        System.out.println("otroNumeroStr manejado por cadena str = " + otroNumeroStr);
+
+        // Double convertido a string
+        double otroRealDouble = 1.23456e2;
+        String otroRealStr = Double.toString(otroRealDouble);
+        System.out.println("otroRealStr = " + otroRealStr);
+        // Ahora con un valor flotante
+        otroRealStr = String.valueOf(1.23456f);
+        System.out.println("otroRealStr = " + otroRealStr);
+
+    
 
     }
 
