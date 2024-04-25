@@ -41,7 +41,7 @@ public class ConversionDeTipos {
         boolean logicBoolean = Boolean.parseBoolean(logicStr);
         System.out.println("logicoBoolean = " + logicBoolean);
 
-        
+
         int i= 52768;
         short  s=(short)i;  // hacemos un cast - Puede tener perdida de informacion
         System.out.println("s = " + s);
