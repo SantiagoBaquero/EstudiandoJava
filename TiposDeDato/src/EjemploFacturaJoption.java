@@ -18,7 +18,6 @@ public class EjemploFacturaJoption {
 
                 // Calcular el impuesto
                 double impuesto = totalBruto * 0.19;
-
                 // Calcular el total neto incluyendo impuesto
                 double totalNeto = totalBruto + impuesto;
 

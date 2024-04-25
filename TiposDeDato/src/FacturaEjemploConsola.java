@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class FacturaEjemploConsola {
     public static void main(String[] args) {
-
         Scanner scanner= new Scanner(System.in);
         // Solicitar el nombre de la factura o descripción
         System.out.println("Ingrese el nombre de la factura:");
