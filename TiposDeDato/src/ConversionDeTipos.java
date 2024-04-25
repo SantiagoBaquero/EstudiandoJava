@@ -36,7 +36,24 @@ public class ConversionDeTipos {
         otroRealStr = String.valueOf(1.23456f);
         System.out.println("otroRealStr = " + otroRealStr);
 
-    
+        // Conersion de String a boolean
+        String logicStr = "TruE";
+        boolean logicBoolean = Boolean.parseBoolean(logicStr);
+        System.out.println("logicoBoolean = " + logicBoolean);
+
+        
+        //
+        int i= 52768;
+        short  s=(short)i;  // hacemos un cast - Puede tener perdida de informacion
+        System.out.println("s = " + s);
+        long l=i;
+        System.out.println("l = " + l);
+        char b=(char)i;  // converte el valor deacuerdo unicode
+        System.out.println("b = " + b);
+        float f = (float)i;
+        System.out.println("f = " + f);
+        
+
 
     }
 

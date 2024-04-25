@@ -1,8 +1,10 @@
 import javax.swing.*;
+import java.util.Scanner;
 
 public class SistemasNumericos {
     public static void main(String[] args) {
 
+        Scanner scanner= new Scanner(System.in);
         // Panel de peticion del valor numerico
         String numeroStr = JOptionPane.showInputDialog(null,"Ingrese un numero entero");
         int numeroDecimalDos =0;
