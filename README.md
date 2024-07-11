@@ -4,6 +4,36 @@ Esto es en desarollo del curso de Udemy Java 127hrs
 
 ## Instlacion de JDK 📂
 
+<p>En este texto para un readme de GitHub haces que las imágenes queden debajo del texto correspondiente puedes usar HTML.</p>
+
+<p>Ingresamos a disco local C</p>
+<img src="https://github.com/SantiagoBaquero/EstudiandoJava/assets/102531445/57c2a268-ca0d-4937-904f-eeef66f97059" alt="imagen">
+
+<p>Nos dirigimos a archivos de programa ingresamos a ella</p>
+<img src="https://github.com/SantiagoBaquero/EstudiandoJava/assets/102531445/9e544f1a-75fa-4d8f-9446-7d7f8cda0fa9" alt="imagen">
+
+<p>Dentro de archivos de programa creamos una carpeta con el nombre "Java"</p>
+<img src="https://github.com/SantiagoBaquero/EstudiandoJava/assets/102531445/18f845e5-f13a-4669-a15e-8e34688c4b23" alt="imagen">
+
+<p>Posterior a ello descargamos el JDK que seamos instalar ya sea por medio de instalador o comprimido en la página original de Oracle:</p>
+
+<p><a href="https://www.oracle.com/co/java/technologies/downloads/">https://www.oracle.com/co/java/technologies/downloads/</a></p>
+
+<img src="https://github.com/SantiagoBaquero/EstudiandoJava/assets/102531445/3d559a41-7ba9-45f4-bc24-19f53da4a949" alt="imagen">
+
+<p>En el caso de hacer uso de instalador como se muestra en la imagen este seleciona la ruta de forma automatica (si tiene otras versiones de java usando el instalador puede que borre la carpeta)</p>
+<img src=https://github.com/SantiagoBaquero/EstudiandoJava/assets/102531445/f0e7a084-7211-4cbc-8f5d-2fc94deacd85>
+
+<p>Si lo realizamos con archivo comprimido este se extrae en la ruta que creamos ()</p>
+<img src="https://github.com/SantiagoBaquero/EstudiandoJava/assets/102531445/ade31f67-98c1-49a2-9f4c-60901e1f86f1">
+
+<p>De las dos maneras quedando de esta forma los archivos</p>
+<img src="https://github.com/SantiagoBaquero/EstudiandoJava/assets/102531445/7a127d4f-09a5-4107-b9ed-2cf047b5a819">
+
+<p>Posterior a ello nos dirijimos a las variables de entorno del sistema para lo ubicarlo hacemos uso de la busqueda de windows </p>
+<img src="https://github.com/SantiagoBaquero/EstudiandoJava/assets/102531445/4a571be9-3ddd-4abd-a8a7-83be2f88ac69">
+
+
 ## Hello World 📂
 Presenta la impresion de un Hello World
 
