@@ -1,6 +1,6 @@
 # EstudiandoJava
 
-Esto es en desarrollo del curso de Udemy Java 127hrs
+
 
 ## Instalación de JDK 📂
 
