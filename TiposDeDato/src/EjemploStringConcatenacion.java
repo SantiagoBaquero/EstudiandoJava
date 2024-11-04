@@ -30,7 +30,7 @@ public class EjemploStringConcatenacion {
         System.out.println("detalle3 = " + detalle3);
 
 
-        
+
 
 
 

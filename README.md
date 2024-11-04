@@ -107,4 +107,5 @@ Con el Jopt
 <img src="https://github.com/SantiagoBaquero/EstudiandoJava/assets/102531445/015d1006-bb28-4d44-9908-e37108fe12cf" alt="imagen">
 <img src="https://github.com/SantiagoBaquero/EstudiandoJava/assets/102531445/3d16113d-9ee2-4155-acb3-14a66062dffc" alt="imagen">
 
-# Seccion 2
+# Tipos de String 
+
