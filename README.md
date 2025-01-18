@@ -116,6 +116,7 @@ Con el Jopt
 Primeros archivos a utilizar:
 - EjemploString.java
 - EjemploStringConcatenacion.java
+- EjemploStringInmutable.java
 
 
 
@@ -133,6 +134,8 @@ Por ultimo vemos la comparacion de curso y curso4 pero por la referencia lo cual
 Precedencia de los operadores por eso los junta en vez de sumarlo aca sucede primero string luego numero cadena con el uso de parentesis cambia la precedencia , al ser "detalle" una cadena el resto de concatenacion sera una cadena  al asignar los parentesis correspondiente si realiza la suma y igual si se cambia el orden de la concatenacion. 
 
 El metodo concat no modifica el la variable inicial sino retornal el valor siendo estos string inmutables
+
+<img src="https://github.com/user-attachments/assets/f37af86e-c72f-4a88-9690-c8b081dc7b13" alt="imagen">
 
 
 
