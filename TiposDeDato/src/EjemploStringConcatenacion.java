@@ -14,8 +14,9 @@ public class EjemploStringConcatenacion {
 
         /**
          * Precedencia de los operadores por eso los junta en vez de sumarlo
-         * aca sucede primero string luego numero cadena
-         * con el uso de parentesis cambia la precedencia */
+         * aca sucede primero string luego numero por lo cual no realizara la suma sino genera el numero 105
+         * con el uso de parentesis cambia la precedencia realizando la concatenacion del string y la suma correcta
+         * Si cambiamos el orden de la concatenacion primero la suma luego el string reallizara la suma y luego el texto*/
         System.out.println(detalle + numeroA + numeroB);
         System.out.println(detalle + (numeroA + numeroB));
         System.out.println(numeroA + numeroB + detalle);

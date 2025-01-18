@@ -6,7 +6,7 @@ public class EjemploString {
     String curso3 = new  String("programacion java");
 
     boolean esIgual = curso == curso2; // Compara la referencia objeto
-        System.out.println("Son iguales = " +esIgual);
+        System.out.println("Son iguales = " +esIgual); // Flaso porque son dos instancias distintas una crea el objeto implicita y la otra explicita con el new
 
 
         esIgual = curso.equals(curso2); //Compara el valor
