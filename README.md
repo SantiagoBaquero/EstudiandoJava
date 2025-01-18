@@ -58,12 +58,15 @@ Presenta la impresión de un Hello World
 
 ## Tipos de dato 📂
 
-En esta carpeta podemos encontrar:
+Primeros archivos a utilizar:
 - TiposDeDato
-- EjemploPrimitivosEnteros
-- EjemploPrimitivosFloat
+- PrimitivosEnteros
+- PrimitivosFloat
 - PrimitivosCaracteres
-- Sistemas Numericos:
+- Sistemas Numericos
+- FacturaEjemploConsola
+- FacturaEjemploConsolaJoption
+ 
 
   ### Tipos de dato 📑
 
@@ -108,7 +111,12 @@ Con el Jopt
 <img src="https://github.com/SantiagoBaquero/EstudiandoJava/assets/102531445/3d16113d-9ee2-4155-acb3-14a66062dffc" alt="imagen">
 
 # Tipos de String 
-Archivo EjemploString.java
+
+
+Primeros archivos a utilizar:
+- EjemploString.java
+- EjemploStringConcatenacion.java
+
 
 
 <img src="https://github.com/user-attachments/assets/af0c31ab-7523-4da3-a9ad-205ac0233a9e" alt="imagen">
@@ -118,6 +126,13 @@ Aca lo que hacemos al comparar con == compara la referencia por eso al comparlo 
 Tambien podemos ver el uso de .equalsIgnoreCase(###);  el cual ignora mayusculas y minusculas al realizar la comparacion del contenido.
 
 Por ultimo vemos la comparacion de curso y curso4 pero por la referencia lo cual nos devuelve verdadero 
+
+
+<img src="https://github.com/user-attachments/assets/fed622ba-8193-460b-a7f8-0098b039f1b6" alt="imagen">
+
+Precedencia de los operadores por eso los junta en vez de sumarlo aca sucede primero string luego numero cadena con el uso de parentesis cambia la precedencia , al ser "detalle" una cadena el resto de concatenacion sera una cadena  al asignar los parentesis correspondiente si realiza la suma y igual si se cambia el orden de la concatenacion. 
+
+El metodo concat no modifica el la variable inicial sino retornal el valor siendo estos string inmutables
 
 
 
