@@ -113,5 +113,12 @@ Archivo EjemploString.java
 
 <img src="https://github.com/user-attachments/assets/af0c31ab-7523-4da3-a9ad-205ac0233a9e" alt="imagen">
 
+Aca lo que hacemos al comparar con == compara la referencia por eso al comparlo con un string generado con new saldra falso , al realizar la comparacion por medio de equals lo realiza al valor.
+
+Tambien podemos ver el uso de .equalsIgnoreCase(###);  el cual ignora mayusculas y minusculas al realizar la comparacion del contenido.
+
+Por ultimo vemos la comparacion de curso y curso4 pero por la referencia lo cual nos devuelve verdadero 
+
+
 
 
