@@ -108,4 +108,10 @@ Con el Jopt
 <img src="https://github.com/SantiagoBaquero/EstudiandoJava/assets/102531445/3d16113d-9ee2-4155-acb3-14a66062dffc" alt="imagen">
 
 # Tipos de String 
+Archivo EjemploString.java
+
+
+<img src="https://github.com/user-attachments/assets/af0c31ab-7523-4da3-a9ad-205ac0233a9e" alt="imagen">
+
+
 
