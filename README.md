@@ -138,7 +138,25 @@ El metodo concat no modifica el la variable inicial sino retornal el valor siend
 <img src="https://github.com/user-attachments/assets/f37af86e-c72f-4a88-9690-c8b081dc7b13" alt="imagen">
 
 Expresion lambda o flecha .tranform , recibe el string por argumento retorna "c + profesor" entonces retorna una nueva instancia sin modificar el valor original entonces "curso" se mantiene inmutable
+
+
 resultado3.remplace vamos a remplazar la letra "a" por una "A"  entonces cualquier metodo que modifica el string lo que hace es retornar, no realiza modificacion en el valor inicial establecido. 
+
+
+Diferencia de concatenar haciendo uso de "+" "concat" o String Builder
+
+
+<img src="https://github.com/user-attachments/assets/8679343d-4280-49d7-8ecd-7c5a01bbc194" alt="imagen">
+
+
+
+El string builder es el mas rapido en este ejemplo en minisegudnso , concat responde bien cuando no tiene un gran volumen de repeticiones ya cuando el volumen es mayor empieza a aumentar el tiempo mientras que con  "+" empieza a reducir tiempo a mayor volumen de datos.
+
+
+Ya que concat cuando concatena crea mas objetos tenemos el objeto "c" "a" y el "c+a" lo mismo con la letra "b" y salto de linea 
+
+
+
 
 
 
