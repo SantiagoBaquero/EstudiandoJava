@@ -137,6 +137,16 @@ El metodo concat no modifica el la variable inicial sino retornal el valor siend
 
 <img src="https://github.com/user-attachments/assets/f37af86e-c72f-4a88-9690-c8b081dc7b13" alt="imagen">
 
+Expresion lambda o flecha .tranform , recibe el string por argumento retorna "c + profesor" entonces retorna una nueva instancia sin modificar el valor original entonces "curso" se mantiene inmutable
+resultado3.remplace vamos a remplazar la letra "a" por una "A"  entonces cualquier metodo que modifica el string lo que hace es retornar, no realiza modificacion en el valor inicial establecido. 
+
+
+
+
+
+
+
+
 
 
 
