@@ -156,6 +156,11 @@ El string builder es el mas rapido en este ejemplo en minisegudnso , concat resp
 Ya que concat cuando concatena crea mas objetos tenemos el objeto "c" "a" y el "c+a" lo mismo con la letra "b" y salto de linea 
 
 
+<img src="https://github.com/user-attachments/assets/a34e6784-156d-4518-a411-e5e44d282557" alt="imagen">
+
+Usaremos el is.empty y is.blank para validar el string tambien haciendo uso de booleanos en el caso de empty si le ingresas un valor " " con espacio en blanco igualmente pasa la verificacion pero en el caso de is.blank si esta vacio o con un espacio en blanco no pasara la verificacion.
+
+
 
 
 
