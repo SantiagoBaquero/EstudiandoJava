@@ -8,6 +8,7 @@ public class EjemploValidarString {
 
         System.out.println("esNulo = " + esNulo);
 
+
         if (esNulo) {
             curso = " Progeamacion";
 
