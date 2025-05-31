@@ -49,12 +49,26 @@
 <img  src="https://github.com/SantiagoBaquero/EstudiandoJava/assets/102531445/76c69e4a-f4b6-4fef-ae47-202bbfce1a50" alt="imagen">
 
 <p>Para comprobar la versión del compilador se utiliza el comando "javac -version" </p>
-<img src="https://github.com/SantiagoBaquero/EstudiandoJava/assets/102531445/4c0c97df-cc70-45e1-a3c1-daf70a99094e" alt="imagen">
+ <img src="https://github.com/SantiagoBaquero/EstudiandoJava/assets/102531445/4c0c97df-cc70-45e1-a3c1-daf70a99094e" alt="imagen">
 
 <p>Con esto finalizamos la instalación del JDK para la programación del resto del contenido</p>
 
-## Hello World 📂
-Presenta la impresión de un Hello World
+## Hola Mundo 📂
+> Carpeta de nombre HolaMundo/src/HolaMundo
+
+<p> Contiene el siguiente codigo: </p>
+
+ ```
+System.out.println(" "); /* Espacio al inicio del contenido del codigo */
+ System.out.println("Hola Mundo"); /* Imprime hola mundo en consola */
+ String saludar = "Hola mundo (En Variable)"; /* Asiganamos Hola mundo en una valiable */
+ System.out.println("saludar = "+saludar.toUpperCase()); /* ToUppercase convierte el valor de la variable en mayuscula */
+```
+<p> en el que visualizamos como se redacta un hola mundo directamente por el "System.out.pintln" o  escribiendo "soutv"  y pulsar tab para que escriba el comando de impresion directamente,  tambien visualizamos el hola mundo apartir de asignarlo una varible tipo string de nombre "saludar" "saludar = "Hola mundo (En Variable)"  y posterior usar el metodo .toUpperCase() en la misma variable para imprimirlo todo en mayusucula como se visualiza en la image a continuacion. </p>
+
+<p align="center"> <img src="https://github.com/user-attachments/assets/7e55af76-25ff-4d3a-80ba-4f8d0c277b5b" alt="imagen" > </p>
+
+
 
 ## Tipos de dato 📂
 
@@ -70,7 +84,7 @@ Primeros archivos a utilizar:
 
   ### Tipos de dato 📑
 
-  >
+  > SistemasNumericos.java
   >En este archivo podemos encontrar la conversión de
   >1. INT - BINARY  "También se muestra como declarar binary  ('0B')"  
   >2. INT - OCTAL  "También se muestra como declarar octal  ('0')"
@@ -79,6 +93,68 @@ Primeros archivos a utilizar:
 <img src="https://github.com/SantiagoBaquero/EstudiandoJava/assets/102531445/63837d08-59b7-43ac-9f44-ff59dc211512" alt="imagen">
 
 
+## PrimitvosEnteros 📑 
+> Archivo de nombre PrimitivosEnteros ubicado en la carpea TiposDeDato/src/PrimitivosEnteros.java
+<p>Encontraremos la declaracion de los datos <strong>byte-short-int-long-var</strong> </p>
+
+```
+        System.out.println("_______________________________________________");
+        byte numeroByte =127;
+        System.out.println("numeroByte = " + numeroByte);
+        System.out.println("Tipo byte corresponde en byte a " + Byte.BYTES);
+        System.out.println("Tipo byte corresponde en bites a " + Byte.SIZE);
+        System.out.println("Valor maximo de un byte:" + Byte.MAX_VALUE);
+        System.out.println("Valor minimo de un byte:" + Byte.MIN_VALUE);
+
+        System.out.println("_______________________________________________");
+        short numeroShort =32767;
+        System.out.println("numeroShort = " + numeroShort);
+        System.out.println("Tipo Short corresponde en byte a " + Short.BYTES);
+        System.out.println("Tipo Short corresponde en bites a " + Short.SIZE);
+        System.out.println("Valor maximo de un short:" + Short.MAX_VALUE);
+        System.out.println("Valor minimo de un short:" + Short.MIN_VALUE);
+
+        System.out.println("_______________________________________________");
+        int numeroInt =2147483647;
+        System.out.println("numeroInt = " + numeroInt);
+        System.out.println("Tipo int corresponde en byte a " + Integer.BYTES);
+        System.out.println("Tipo int corresponde en bites a " + Integer.SIZE);
+        System.out.println("Valor maximo de un int:" + Integer.MAX_VALUE);
+        System.out.println("Valor minimo de un int:" + Integer.MIN_VALUE);
+
+        System.out.println("_______________________________________________");
+        long numeroLong =9223372036854775807L;  /*Se indica con  la literal "L" para tipo long al final del valor */
+        System.out.println("numeroLong = " + numeroInt);
+        System.out.println("Tipo int corresponde en byte a " + Long.BYTES);
+        System.out.println("Tipo int corresponde en bites a " + Long.SIZE);
+        System.out.println("Valor maximo de un Long:" + Long.MAX_VALUE);
+        System.out.println("Valor minimo de un Long:" + Long.MIN_VALUE);
+```
+
+<p>Tambien visualizamos var en el cual al superar el predetirmado de int que el maximo es 2147483647 se tiene que declar en tipo "L" long "D" double "F" Float los cuales se abordan en (PrimitivosFloat) </p>
+
+```
+     System.out.println("_______________________________________________");
+        var numeroVar= 2147483647; /* Para una variable dinamica  esta se soporta desde JDK 10 en adelante */
+
+        /* Esto explicacion se encuentra en PrimitivosFloat */
+        /* Ejemplo var numeroVarL= 2147483648L;  Siempre viene predefinido de tipo integer si lo superamos toca declararlo como en el caso long "L" */
+        /* Ejemplo var numeroVarF= 9223372036854775808F;  Si superamos el long "l"  toca declararlo como en el caso float "F" o double "D" como se ve a continuacion */
+        /* Ejemplo  var numeroVarD= 9223372036854775808D;  */
+
+        System.out.println("numeroVar = " + numeroVar);
+```
+
+  ### PrimitivosFloat 📑
+>Archivo de nombre PrimitivosEnteros ubicado en la carpea TiposDeDato/src/PrimitivosFloat.java
+
+
+
+
+ ### Corriguiendo indicaciones del contenido
+
+
+ 
 La impresión del mismo se realiza gracias a JOptionPane como se muestra a continuación:
 
 
