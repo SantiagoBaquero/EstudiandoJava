@@ -83,12 +83,40 @@ Primeros archivos a utilizar:
  
 
   ### Tipos de dato 📑
+  
+>Archivo de nombre TiposDeDato ubicado en la carpea TiposDeDato/src/TiposDeDato.java
 
-  > SistemasNumericos.java
-  >En este archivo podemos encontrar la conversión de
-  >1. INT - BINARY  "También se muestra como declarar binary  ('0B')"  
-  >2. INT - OCTAL  "También se muestra como declarar octal  ('0')"
-  >3. INT - HEXADECIMAL "También se muestra como declarar hexadecimal  ('0X')"
+
+ <p>En este archivo econtraremos un ejemplo de tipos de uso de diferente comandos como:
+            <ul>
+            <li> \b  Retroceso </li>
+            <li> \n  Nueva linea</li>
+            <li> \r  Retorno del Carro</li>
+            <li> \t  Tabulador</li>
+            <li> \\  Diganoal Invertida</li>
+            <li> \"  Comillas dobles</li>
+            </ul>  </p>
+
+   ```
+    System.out.println("FALTA EL EJEMPLO");
+   ```
+            
+   <p> y ejemplo de los datos tipo byte short int long float double de forma rapida  </p>
+
+   ```
+      // Entre -128 a 127  - 8 bits
+        byte enterByte=127;
+      // Entre -32768 a 32767 - 16 bits
+        short entertoShort = 32767;
+      // Entre -2147483647 a 2147483647 - 32 bits
+        int enteroInt= 2147483647;
+      // Entre -9223372036854775808 a 9223372036854775807 - 64 bits
+        long enteroLong = 9223372036854775807L;
+      // Entre  -1.4E a 3.4028235E38 - 32 bits
+      float realFloat= 3.1416f;
+      // Entre -4.9E a 1.7976931348623157E308 - 64 bits
+      double realDouble=4.702935E3;
+   ```
      
 <img src="https://github.com/SantiagoBaquero/EstudiandoJava/assets/102531445/63837d08-59b7-43ac-9f44-ff59dc211512" alt="imagen">
 
