@@ -97,8 +97,30 @@ Primeros archivos a utilizar:
             <li> \"  Comillas dobles</li>
             </ul>  </p>
 
+   <p>Se muestra un ejemplo del funcionamiento de cada uno de los comandos mostrados anteriormente:<p>
+
    ```
-    System.out.println("FALTA EL EJEMPLO");
+        System.out.println("\n---");
+        //     \b Retroceso
+        System.out.println("Hola\bMundo"); // el 'a' es "borrado" por el retroceso
+        System.out.print("12345\b");    // el '5' es "borrado"
+        System.out.println("\n---");
+        //     \n  Nueva linea
+        System.out.print("Primera línea\nSegunda línea");
+        System.out.println("\n---");
+        //     \r  Retorno del Carro
+        System.out.println("Texto inicial\rNuevo"); // Nuevo sobrescribe el "Texto inicial"
+        System.out.print("Uno Dos Tres\rHola"); // Hola sobrescibre "Uno Dos Tres"
+        System.out.println("\n---");
+        //     \t  Tabulador
+        System.out.println("Nombre:\tJuan"); // Inserta una tabulacion
+        System.out.print("Edad:\t30");    // Inserta una tabulacion
+        System.out.println("\n---");
+        //     \\  Diagonal Invertida
+        System.out.print("La ruta es C:\\Archivos\\Documentos"); // Salida: "La ruta es C:\Archivos\Documentos" asi se imprime "\"
+        System.out.println("\n---");
+        //     \"  Comillas dobles
+        System.out.println("El dijo: \"Hola mundo\""); // Salida: El dijo: "Hola mundo"
    ```
             
    <p> y ejemplo de los datos tipo byte short int long float double de forma rapida  </p>
@@ -117,6 +139,7 @@ Primeros archivos a utilizar:
       // Entre -4.9E a 1.7976931348623157E308 - 64 bits
       double realDouble=4.702935E3;
    ```
+
      
 <img src="https://github.com/SantiagoBaquero/EstudiandoJava/assets/102531445/63837d08-59b7-43ac-9f44-ff59dc211512" alt="imagen">
 
