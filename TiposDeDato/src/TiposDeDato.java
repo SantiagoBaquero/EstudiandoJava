@@ -6,24 +6,12 @@ public class TiposDeDato {
         boolean a=false;
         boolean b=true;
 
-
        //Primitivo Char
         char c ='a';
         char d ='1';
         char f ='\u0021';
 
-        /* Ejemplos algunos usos 
-            \b  Retroceso
-            \n  Nueva linea
-            \r  Retorno del Carro
-            \t  Tabulador
-            \\  Diganoal Invertida
-            \"  Comillas dobles
-        */
-
-      // Primitivos Enteros
-
-      // Numeros Enteros - 4 tipos
+        // Numeros Enteros - 4 tipos
       // Entre -128 a 127  - 8 bits
         byte enterByte=127;
       // Entre -32768 a 32767 - 16 bits
@@ -39,6 +27,37 @@ public class TiposDeDato {
       float realFloat= 3.1416f;
       // Entre -4.9E a 1.7976931348623157E308 - 64 bits
       double realDouble=4.702935E3;
+
+    /* Ejemplos algunos usos
+            \b  Retroceso
+            \n  Nueva linea
+            \r  Retorno del Carro
+            \t  Tabulador
+            \\  Diganoal Invertida
+            \"  Comillas dobles
+        */
+        System.out.println("\n---");
+        //     \b Retroceso
+        System.out.println("Hola\bMundo"); // el 'a' es "borrado" por el retroceso
+        System.out.print("12345\b");    // el '5' es "borrado"
+        System.out.println("\n---");
+        //     \n  Nueva linea
+        System.out.print("Primera línea\nSegunda línea");
+        System.out.println("\n---");
+        //     \r  Retorno del Carro
+        System.out.println("Texto inicial\rNuevo"); // Nuevo sobrescribe el "Texto inicial"
+        System.out.print("Uno Dos Tres\rHola"); // Hola sobrescibre "Uno Dos Tres"
+        System.out.println("\n---");
+        //     \t  Tabulador
+        System.out.println("Nombre:\tJuan"); // Inserta una tabulacion
+        System.out.print("Edad:\t30");    // Inserta una tabulacion
+        System.out.println("\n---");
+        //     \\  Diagonal Invertida
+        System.out.print("La ruta es C:\\Archivos\\Documentos"); // Salida: "La ruta es C:\Archivos\Documentos" asi se imprime "\"
+        System.out.println("\n---");
+        //     \"  Comillas dobles
+        System.out.println("El dijo: \"Hola mundo\""); // Salida: El dijo: "Hola mundo"
+
 
 
 
