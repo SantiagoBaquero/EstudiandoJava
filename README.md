@@ -141,7 +141,6 @@ Primeros archivos a utilizar:
    ```
 
      
-<img src="https://github.com/SantiagoBaquero/EstudiandoJava/assets/102531445/63837d08-59b7-43ac-9f44-ff59dc211512" alt="imagen">
 
 
 ## PrimitvosEnteros 📑 
