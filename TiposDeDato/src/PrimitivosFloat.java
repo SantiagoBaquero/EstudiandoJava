@@ -38,7 +38,7 @@ public class PrimitivosFloat {
         System.out.println("varvariable = " + varvariable);
 
        // float varconstante; // si dejamamos solo float varflotante sin inicializar marcara error pero si lo declaramos como atributo de la clase si podemos dejarlo con valor por defecto
-        System.out.println("valor defecto de varflotante = " + varflotante); // varflotante esta inicialicada
+        System.out.println("valor defecto de varflotante = " + varflotante); // varflotante esta inicializada
 
 
 
