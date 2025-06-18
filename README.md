@@ -249,7 +249,61 @@ Primeros archivos a utilizar:
     System.out.println("varvariable = " + varvariable);
 ```
 
- ### Corriguiendo indicaciones del contenido
+## PrimitvosCaracteres 📑
+>Archivo de nombre PrimitivosCaracteres ubicado en la carpea TiposDeDato/src/PrimitivosCaracteres.java
+
+<p>Iniciamos mostrando un ejemplo de char el cual se declara en comilla sencilla '' y soporta solo 1 caracter.</p>
+
+```
+// Char  utiliza comilla simple para declarar
+       // Char solo soporta 1 caracter
+        char caracter ='S'; //0-9
+        System.out.println("caracter = " + caracter)
+```
+
+<p>Posterior a ello mostraremos un ejemplo de arroba escrita en formato unicode en decimal y de forma directa el caracter @ y en cada uno se realiza la comparacion booleana si correponden entre ellos al mismo valor dando true o false correspondientemente.</p>
+
+```
+// Escribimos el valor de arroba en formato unicode el cual podemos encontrar en mapa de caracteres en equipos windows
+        char arroba='\u0040'; // Valor de arroba uncide
+        System.out.println("Caracter en unicode arroba = " + arroba);
+        System.out.println("_______________________________________________");
+
+        char decimal=64; //Se imprime la Arroba igualmente ya que corresponde en el ASCII
+        System.out.println("Arroba en decimal (ASCII) arroba = " + decimal);
+
+        System.out.println("_______________________________________________");
+
+        // Comparamos que el arroba por ASCII y Unicode sean iguales lo hacemos por medio de una expresion booleana ya que nos devuelve true o false
+        System.out.println("Comparacion Decimal = Arroba: "+ (arroba == decimal));// Comparamos si es el mismo valor
+        System.out.println("_______________________________________________");
+
+        //Comparamos si el caracter directo @ es igual al ASCII lo hacemos por medio de una expresion booleana ya que nos devuelve true o false
+        char simbolo= '@';
+        System.out.println("simbolo == Decimal " + (simbolo == decimal));
+        System.out.println("_______________________________________________");
+```
+
+<p>Un ejemplo de formas de realizar saltos de linea \n o haciendo uso de la clase System o de forma individual el lineSeparator </p>
+
+```
+   // ejemplo lineSeparato individual o por la clase System haciendo un salto de linea
+        System.out.println("Tipo char corresponde en bytes: "  + System.lineSeparator()+ Character.BYTES); // El system.line.Separator() tambien saltar una linea nueva
+        System.out.println("Tipo char corresponde en bytes: "  + System.getProperty("line.separator")+ Character.BYTES); // De la clase System podemos utilizar getProperty("line.separator") tambien saltar una linea nueva
+        System.out.println("_______________________________________________");
+        
+```
+
+<p>Un ejemeplo de caracter siendo este un espacio ' ' o en formato unicode como se muesta </p>
+
+```
+   char espacio='\u0020';  // Corresponde al valor de un espacio de la forma unicode
+   System.out.println("Utilizando espacio en unicode" + espacio +"ejemplo"); // Salida " Utilizando espacio en unicode ejemplo" mostrando el espacio correspondiente
+
+```
+
+
+ ### Corrigiendo indicaciones del contenido
 
 
  
