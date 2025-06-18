@@ -252,6 +252,17 @@ Primeros archivos a utilizar:
 ## PrimitvosCaracteres 📑
 >Archivo de nombre PrimitivosCaracteres ubicado en la carpea TiposDeDato/src/PrimitivosCaracteres.java
 
+<p>Para obtener los valores uncode podemos hacer uso de Mapa de Caracteres buscandolo en nuestro widnows o en nuestro navegador buscando valores unicode </p>
+
+<p align="center"> <img src="https://github.com/user-attachments/assets/6cef405a-16f5-45ce-a656-0ce4da17af86" alt="imagen" > </p>
+
+<p>Ingresando a la misma en la parte inferior podemos ubicar el valor del mismo en unciode</p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/a84e4508-56ef-4e52-8c8c-ccc108f6d52e" alt="imagen" > </p>
+
+
+
+
+
 <p>Iniciamos mostrando un ejemplo de char el cual se declara en comilla sencilla '' y soporta solo 1 caracter.</p>
 
 ```
@@ -301,6 +312,9 @@ Primeros archivos a utilizar:
    System.out.println("Utilizando espacio en unicode" + espacio +"ejemplo"); // Salida " Utilizando espacio en unicode ejemplo" mostrando el espacio correspondiente
 
 ```
+
+
+
 
 
  ### Corrigiendo indicaciones del contenido
