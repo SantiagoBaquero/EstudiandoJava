@@ -195,7 +195,7 @@ Primeros archivos a utilizar:
         System.out.println("numeroVar = " + numeroVar);
 ```
 
-  ### PrimitivosFloat 📑
+## PrimitivosFloat 📑
 >Archivo de nombre PrimitivosEnteros ubicado en la carpea TiposDeDato/src/PrimitivosFloat.java
 
 
